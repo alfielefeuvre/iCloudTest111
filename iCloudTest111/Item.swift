@@ -10,7 +10,7 @@ import SwiftData
 
 @Model
 final class Item {
-    var timestamp: Date
+    var timestamp: Date = Date(timeIntervalSince1970: 100_000)
     
     init(timestamp: Date) {
         self.timestamp = timestamp
