@@ -12,6 +12,11 @@
 		1436774C2C726EAA00B53C11 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1436774B2C726EAA00B53C11 /* Item.swift */; };
 		1436774E2C726EAC00B53C11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1436774D2C726EAC00B53C11 /* Assets.xcassets */; };
 		143677512C726EAC00B53C11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 143677502C726EAC00B53C11 /* Preview Assets.xcassets */; };
+		1436775B2C72821E00B53C11 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1436775A2C72821E00B53C11 /* ItemView.swift */; };
+		1436775E2C7284A900B53C11 /* Message1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1436775D2C7284A900B53C11 /* Message1View.swift */; };
+		143677602C7284E900B53C11 /* Message1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1436775F2C7284E900B53C11 /* Message1.swift */; };
+		143677622C72875800B53C11 /* DayData1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143677612C72875700B53C11 /* DayData1.swift */; };
+		143677642C7287A700B53C11 /* DayData1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143677632C7287A700B53C11 /* DayData1View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,11 @@
 		143677502C726EAC00B53C11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		143677572C726FCA00B53C11 /* iCloudTest111.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iCloudTest111.entitlements; sourceTree = "<group>"; };
 		143677582C72700600B53C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1436775A2C72821E00B53C11 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		1436775D2C7284A900B53C11 /* Message1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message1View.swift; sourceTree = "<group>"; };
+		1436775F2C7284E900B53C11 /* Message1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message1.swift; sourceTree = "<group>"; };
+		143677612C72875700B53C11 /* DayData1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayData1.swift; sourceTree = "<group>"; };
+		143677632C7287A700B53C11 /* DayData1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayData1View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +69,8 @@
 				143677572C726FCA00B53C11 /* iCloudTest111.entitlements */,
 				143677472C726EAA00B53C11 /* iCloudTest111App.swift */,
 				143677492C726EAA00B53C11 /* ContentView.swift */,
-				1436774B2C726EAA00B53C11 /* Item.swift */,
+				1436775C2C72849700B53C11 /* Views */,
+				143677592C72820A00B53C11 /* Models */,
 				1436774D2C726EAC00B53C11 /* Assets.xcassets */,
 				1436774F2C726EAC00B53C11 /* Preview Content */,
 			);
@@ -72,6 +83,26 @@
 				143677502C726EAC00B53C11 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		143677592C72820A00B53C11 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1436774B2C726EAA00B53C11 /* Item.swift */,
+				1436775F2C7284E900B53C11 /* Message1.swift */,
+				143677612C72875700B53C11 /* DayData1.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1436775C2C72849700B53C11 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1436775A2C72821E00B53C11 /* ItemView.swift */,
+				1436775D2C7284A900B53C11 /* Message1View.swift */,
+				143677632C7287A700B53C11 /* DayData1View.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +175,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				143677622C72875800B53C11 /* DayData1.swift in Sources */,
+				143677642C7287A700B53C11 /* DayData1View.swift in Sources */,
 				1436774A2C726EAA00B53C11 /* ContentView.swift in Sources */,
 				1436774C2C726EAA00B53C11 /* Item.swift in Sources */,
 				143677482C726EAA00B53C11 /* iCloudTest111App.swift in Sources */,
+				1436775B2C72821E00B53C11 /* ItemView.swift in Sources */,
+				1436775E2C7284A900B53C11 /* Message1View.swift in Sources */,
+				143677602C7284E900B53C11 /* Message1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
